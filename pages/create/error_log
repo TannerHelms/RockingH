@@ -1,0 +1,2 @@
+[28-Jun-2020 16:16:20 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/tannerhelms/public_html/pages/create/executeForm.php on line 10
+[28-Jun-2020 16:16:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/tannerhelms/public_html/pages/create/executeForm.php:10) in /home1/tannerhelms/public_html/pages/create/executeForm.php on line 19

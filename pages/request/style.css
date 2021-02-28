@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../images/tung.jpg");
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.container {
+    position: absolute;
+    background-color: grey;
+    margin-top: 10vh;
+    width: 50vw;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.content {
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    height: 5vh;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li a {
+    color: white;
+    font-size: 1.1rem;
+    padding-right: 10px;
+}
+
+ul li :nth-child(3) {
+    text-decoration: underline;
+}
+
+.logout {
+    position: absolute;
+    right: 10%;
+    margin-top: 10px;
+}
+
+.date {
+    justify-content: center;
+    text-align: center;
+}
+
+.calendar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: scale(.9);
+}
+
+.calendar {
+    border-collapse: collapse;
+}
+
+.calendar tr td {
+    border: 1px solid white;
+    padding-bottom: 20px;
+    padding-right: 4rem;
+}
+
+.today {
+    background: orange;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    ul li a {
+        font-size: .7rem;
+    }
+
+    .calendar-container {
+        transform: scale(0.75);
+    }
+
+    .calendar tr td {
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+}

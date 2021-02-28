@@ -1,0 +1,12 @@
+[20-Feb-2021 00:56:09 America/Chicago] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /home1/tannerhelms/public_html/pages/LoginTracker.php on line 20
+[20-Feb-2021 00:56:43 America/Chicago] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /home1/tannerhelms/public_html/pages/LoginTracker.php on line 20
+[20-Feb-2021 00:56:46 America/Chicago] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /home1/tannerhelms/public_html/pages/LoginTracker.php on line 20
+[20-Feb-2021 00:56:48 America/Chicago] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /home1/tannerhelms/public_html/pages/LoginTracker.php on line 20
+[20-Feb-2021 12:46:04 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home1/tannerhelms/public_html/pages/PostLogin.php on line 5
+[20-Feb-2021 12:46:33 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home1/tannerhelms/public_html/pages/PostLogin.php on line 5
+[20-Feb-2021 12:47:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home1/tannerhelms/public_html/pages/PostLogin.php on line 5
+[20-Feb-2021 12:50:02 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/tannerhelms/public_html/pages/PostLogin.php on line 13
+[20-Feb-2021 12:50:38 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/tannerhelms/public_html/pages/PostLogin.php on line 12
+[20-Feb-2021 12:52:23 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/tannerhelms/public_html/pages/PostLogin.php on line 6
+[20-Feb-2021 12:53:56 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/tannerhelms/public_html/pages/PostLogin.php on line 6
+[20-Feb-2021 12:54:30 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/tannerhelms/public_html/pages/PostLogin.php on line 6

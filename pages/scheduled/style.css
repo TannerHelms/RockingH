@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../images/tung.jpg");
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.container {
+    position: absolute;
+    background-color: grey;
+    margin-top: 10vh;
+    width: 50vw;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.content {
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    height: 5vh;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li a {
+    color: white;
+    font-size: 1.1rem;
+    padding-right: 10px;
+}
+
+ul li :nth-child(1) {
+    text-decoration: underline;
+}
+
+.logout {
+    position: absolute;
+    right: 10%;
+    margin-top: 10px;
+}
+
+.calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.calendar td,
+th {
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    ul li a {
+        font-size: .7rem;
+    }
+}
